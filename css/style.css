@@ -1,0 +1,1410 @@
+body{
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+main{
+  display: block;
+  position: relative;
+  width: 1700px;
+  overflow-x: hidden;
+  background-color: rgba(143, 209, 120, 0);
+  height: 100vh;
+}
+
+.recursive{
+  font-family: 'recursive';
+}
+
+#page1_recursive {
+  position: absolute;
+  left: 750px;
+  top: 600px;
+  color: rgb(227, 59, 76);
+  font-size: 50px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "CASL" 1 ;
+  animation-name: ah; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+
+
+
+@keyframes ah { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+ 
+0%{ /*ici on renseigne la valeur de départ*/
+left: 420px;
+top: 750px;
+color: rgb(227, 59, 76);
+font-variation-settings: "slnt" -15, "BLED" 0;
+} 
+
+
+20%{ /*ici on renseigne la valeur de départ*/
+left: 1000px;
+top: 850px;
+color: rgb(90, 190, 70);
+font-variation-settings: "slnt" -15, "BLED" 0;
+}
+
+50%{ /*ici on renseigne la valeur de départ*/
+  left:420px;
+  top: 140px;
+  color: rgb(70, 120, 190);
+  font-variation-settings: "slnt" 0, "BLED" 0;
+  }
+
+70%{ /*ici on renseigne la valeur de départ*/
+  left:600px;
+  top: 1100px;
+  color: rgb(198, 53, 150);
+  font-variation-settings: "slnt" -15, "BLED" 0;
+  }
+
+100%{ /*ici on renseigne la valeur de départ*/
+  left:1000px;
+  top: 350px;
+  color: rgb(214, 205, 36);
+  font-variation-settings: "slnt" -15, "BLED" 0;
+  }
+}
+
+
+.sixtyhour{
+  font-family: 'sixtyhour';
+}
+
+h2{
+  color: chartreuse;
+  width: 300px;
+  height: 300px;
+
+}
+
+#VLA {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(0deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA1 {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(0deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA2 {
+  position: absolute;
+  left: 100px;
+  top: 250px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA3 {
+  position: absolute;
+  left: 100px;
+  top: 350px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA4 {
+  position: absolute;
+  left: 100px;
+  top: 450px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA5 {
+  position: absolute;
+  left: 100px;
+  top: 550px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+#VLA6 {
+  position: absolute;
+  left: 100px;
+  top: 650px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+#VLA7 {
+  position: absolute;
+  left: 100px;
+  top: 750px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+#VLA8 {
+  position: absolute;
+  left: 100px;
+  top: 850px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA9 {
+  position: absolute;
+  left: 100px;
+  top: 950px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+#VLA10 {
+  position: absolute;
+  left: 100px;
+  top: 1050px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+#VLA11 {
+  position: absolute;
+  left: 100px;
+  top: 1150px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+#VLA12 {
+  position: absolute;
+  left: 420px;
+  top: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA13 {
+  position: absolute;
+  left: 740px;
+  top: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA14 {
+  position: absolute;
+  left: 1060px;
+  top: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA15 {
+  position: absolute;
+  left: 1060px;
+  top: 150px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA16 {
+  position: absolute;
+  left: 1060px;
+  top: 250px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA17 {
+  position: absolute;
+  left: 1060px;
+  top: 350px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA18 {
+  position: absolute;
+  left: 1060px;
+  top: 450px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA19 {
+  position: absolute;
+  left: 1060px;
+  top: 550px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA20 {
+  position: absolute;
+  left: 1060px;
+  top: 650px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA21 {
+  position: absolute;
+  left: 1060px;
+  top: 750px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA22 {
+  position: absolute;
+  left: 1060px;
+  top: 850px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA23 {
+  position: absolute;
+  left: 1060px;
+  top: 950px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA24 {
+  position: absolute;
+  left: 1060px;
+  top: 1050px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA25 {
+  position: absolute;
+  left: 1060px;
+  top: 1150px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA26 {
+  position: absolute;
+  left: 420px;
+  top: 1150px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#VLA27 {
+  position: absolute;
+  left: 740px;
+  top: 1150px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 100 ;
+}
+
+#page1_sixtyhour3 {
+  position: absolute;
+  left: 100px;
+  top: 445px;
+  color: rgb(0, 0, 0);
+  font-size: 450px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 50 ;
+  
+
+}
+
+#page1_sixtyhour4 {
+  position: absolute;
+  left: 1000px;
+  top: 445px;
+  color: rgb(0, 0, 0);
+  font-size: 450px;
+  transform: rotate(00deg);
+  z-index: -1;
+  font-variation-settings: "SCAN"-53, "BLED" 50 ;
+
+}
+
+@font-face {
+  font-family: 'sixtyhour';
+  src: url(../font/sixtyhour/Sixtyfour.woff2) format('woff2');
+   /*
+  axes : 
+  "SCAN" : épaisseur des lignes((-53)-100)
+  "BLED": longueur des lignes(0-100);
+  */
+}
+
+
+/*si votre svg a un id*/
+#pchit{
+	fill : rgb(161, 134, 51);
+	font-family : 'recursive';
+}
+
+svg{
+  position: absolute;
+  left: 300px;
+  top: 2000px;
+  width: 1500px;
+
+
+}
+  
+body{ 
+  cursor : url(../curseur.png), pointer;
+  }
+  
+  /*Changer l'apparence du curseur pour un élément de la page web*/
+  h2{ 
+  cursor : url(../img/un_autre_cursor.png), pointer;
+  }
+
+
+ /*Blouip 1*/
+
+  #page1_sixtyhourB {
+    position: absolute;
+    left: 100px;
+    top: 2000px;
+    color: rgb(0, 0, 0);
+    font-size: 200px;
+    transform: rotate(-15deg);
+    z-index: -1;
+    font-variation-settings: "SCAN" 30, "BLED" 50 ;
+    animation-name: B; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 3s; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  }
+  
+  
+  
+  @keyframes  B{ /*ici vous renseignez le nom de l'animation à réutiliser 
+    pour la propriété animation-name*/
+   
+  0%{ /*ici on renseigne la valeur de départ*/
+  transform: rotate(-15deg);
+  } 
+  
+  100%{ /*ici on renseigne la valeur de départ*/
+    transform: rotate(-25deg);
+    }
+  }
+
+#page1_sixtyhourL {
+  position: absolute;
+  left: 100px;
+  top: 2250px;
+  color: rgb(0, 0, 0);
+  font-size: 150px;
+  transform: rotate(10deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+}
+
+#page1_sixtyhourO {
+  position: absolute;
+  left: 100px;
+  top: 2400px;
+  color: rgb(0, 0, 0);
+  font-size: 200px;
+  transform: rotate(-15deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+}
+
+#page1_sixtyhourO1 {
+  position: absolute;
+  left: 100px;
+  top: 2600px;
+  color: rgb(0, 0, 0);
+  font-size: 160px;
+  transform: rotate(-15deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: O1; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+
+
+
+@keyframes  O1{ /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+ 
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(-15deg);
+} 
+
+100%{ /*ici on renseigne la valeur de départ*/
+  transform: rotate(0deg);
+  }
+}
+
+#page1_sixtyhourU {
+  position: absolute;
+  left: 200px;
+  top: 2750px;
+  color: rgb(0, 0, 0);
+  font-size: 150px;
+  transform: rotate(-15deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+}
+
+#page1_sixtyhourI {
+  position: absolute;
+  left: 300px;
+  top: 2900px;
+  color: rgb(0, 0, 0);
+  font-size: 150px;
+  transform: rotate(15deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: I; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 3s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+
+
+
+@keyframes  I{ /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+ 
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(15deg);
+} 
+
+100%{ /*ici on renseigne la valeur de départ*/
+  transform: rotate(30deg);
+  }
+}
+
+#page1_sixtyhourI1 {
+  position: absolute;
+  left: 300px;
+  top: 3010px;
+  color: rgb(0, 0, 0);
+  font-size: 120px;
+  transform: rotate(-15deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+}
+
+#page1_sixtyhourP {
+  position: absolute;
+  left: 300px;
+  top: 3200px;
+  color: rgb(0, 0, 0);
+  font-size: 120px;
+  transform: rotate(10deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+}
+
+#page1_sixtyhourP1 {
+  position: absolute;
+  left: 300px;
+  top: 3300px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(-10deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: P1; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+
+
+
+@keyframes  P1{ /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+ 
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(-10deg);
+} 
+
+100%{ /*ici on renseigne la valeur de départ*/
+  transform: rotate(-20deg);
+  }
+}
+
+ /*Blouip 2*/
+
+ #page1_sixtyhourB1 {
+  position: absolute;
+  left: 1300px;
+  top: 3000px;
+  color: rgb(0, 0, 0);
+  font-size: 200px;
+  transform: rotate(15deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+}
+
+#page1_sixtyhourL2 {
+  position: absolute;
+  left: 1300px;
+  top: 3200px;
+  color: rgb(0, 0, 0);
+  font-size: 150px;
+  transform: rotate(-5deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: L2; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+
+
+
+@keyframes  L2{ /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+ 
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(-5deg);
+} 
+
+100%{ /*ici on renseigne la valeur de départ*/
+  transform: rotate(-20deg);
+  }
+}
+
+#page1_sixtyhourL3 {
+  position: absolute;
+  left: 1300px;
+  top: 3400px;
+  color: rgb(0, 0, 0);
+  font-size: 150px;
+  transform: rotate(5deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+}
+
+#page1_sixtyhourO2 {
+  position: absolute;
+  left: 1300px;
+  top: 3600px;
+  color: rgb(0, 0, 0);
+  font-size: 150px;
+  transform: rotate(5deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+}
+
+#page1_sixtyhourU1 {
+  position: absolute;
+  left: 1200px;
+  top: 3750px;
+  color: rgb(0, 0, 0);
+  font-size: 130px;
+  transform: rotate(5deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: U1; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+
+
+
+@keyframes  U1{ /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+ 
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(5deg);
+} 
+
+100%{ /*ici on renseigne la valeur de départ*/
+  transform: rotate(20deg);
+  }
+}
+
+#page1_sixtyhourI2 {
+  position: absolute;
+  left: 1200px;
+  top: 3880px;
+  color: rgb(0, 0, 0);
+  font-size: 120px;
+  transform: rotate(-10deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+}
+
+#page1_sixtyhourP2 {
+  position: absolute;
+  left: 1200px;
+  top: 4020px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(-5deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: P2; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 3s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+}
+
+
+
+@keyframes  P2{ /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+ 
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(-5deg);
+} 
+
+100%{ /*ici on renseigne la valeur de départ*/
+  transform: rotate(-20deg);
+  }
+}
+
+
+#Vroom {
+  position: absolute;
+  left: 20px;
+  top: 4020px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(90deg);
+  z-index: 0;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: Vroom; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+
+}
+
+
+@keyframes Vroom { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+left: 20px;
+top: 4020px;
+font-variation-settings: "slnt" -15, "BLED" 0;
+}
+
+50%{ /*ici on renseigne la valeur de départ*/
+  left:20px;
+  top: 4080px;
+  font-variation-settings: "slnt" 0, "BLED" 0;
+  }
+
+75%{ /*ici on renseigne la valeur de départ*/
+  left:20px;
+  top: 4020px;
+  font-variation-settings: "slnt" -15, "BLED" 0;
+  }
+
+100%{ /*ici on renseigne la valeur de départ*/
+  left:50px;
+  top: 5000px;
+  font-variation-settings: "slnt" -15, "BLED" 0;
+  }
+}
+
+#Vroom2 {
+  position: absolute;
+  left: 0px;
+  top: 4020px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  transform: rotate(90deg);
+  z-index: 0;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: Vroom2; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 1s;/*faire démarer une animation un peu en retard*/
+
+}
+
+
+@keyframes Vroom2 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+left: 80px;
+top: 4020px;
+font-variation-settings: "slnt" -15, "BLED" 0;
+}
+
+50%{ /*ici on renseigne la valeur de départ*/
+  left:80px;
+  top: 4080px;
+  font-variation-settings: "slnt" 0, "BLED" 0;
+  }
+
+75%{ /*ici on renseigne la valeur de départ*/
+  left:80px;
+  top: 4020px;
+  font-variation-settings: "slnt" -15, "BLED" 0;
+  }
+
+100%{ /*ici on renseigne la valeur de départ*/
+  left:80px;
+  top: 5000px;
+  font-variation-settings: "slnt" -15, "BLED" 0;
+  }
+}
+
+
+
+#Vroom6 {
+  position: absolute;
+  left: 1440px;
+  top: 5450px;
+  color: rgb(0, 0, 0);
+  font-size: 300px;
+  transform: rotate(0deg);
+  z-index: 0;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: Vroom6; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 1.5s;/*faire démarer une animation un peu en retard*/
+
+}
+
+
+@keyframes Vroom6 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+left:2000px;
+font-variation-settings: "slnt" -15, "BLED" 0;
+}
+
+100%{/*ici on renseigne la valeur de fin*/
+
+  left:0px;
+  font-variation-settings: "slnt" 0, "BLED" 0;
+}
+}
+
+#hic1
+{
+  position: absolute;
+  left: 1100px;
+  top: 4200px;
+  color: rgb(99, 125, 220);
+  font-size: 50px;
+  transform: rotate(-15deg);
+  z-index: 0;
+  font-variation-settings: "SCAN" 50, "BLED" 0 ;
+  animation-name: hic1; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 5s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0.5s;/*faire démarer une animation un peu en retard*/
+
+}
+
+
+@keyframes hic1 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+font-size: 10px;
+transform: rotate(0deg);
+font-variation-settings: "SCAN" 50, "BLED" 0 ;
+}
+
+100%{ /*ici on renseigne la valeur de départ*/
+  font-size: 50px;
+  left: 400px;
+  top:4750px;
+  transform: rotate(-45deg);
+  font-variation-settings: "SCAN" -15, "BLED" 0 ;
+  }
+}
+
+#hic2
+{
+  position: absolute;
+  left: 1200px;
+  top: 4200px;
+  color: rgb(99, 125, 220);
+  font-size: 50px;
+  transform: rotate(-15deg);
+  z-index: 0;
+  font-variation-settings: "SCAN" 50, "BLED" 0 ;
+  animation-name: hic2; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 5s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0.5s;/*faire démarer une animation un peu en retard*/
+
+}
+
+
+@keyframes hic2 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+font-size: 5px;
+transform: rotate(0deg);
+font-variation-settings: "SCAN" 50, "BLED" 0 ;
+}
+
+100%{ /*ici on renseigne la valeur de départ*/
+  font-size: 60px;
+  left: 500px;
+  top:4750px;
+  transform: rotate(-45deg);
+  font-variation-settings: "SCAN" -15, "BLED" 0 ;
+  }
+}
+
+#hic3
+{
+  position: absolute;
+  left: 1300px;
+  top: 4300px;
+  color: rgb(99, 125, 220);
+  font-size: 50px;
+  transform: rotate(-25deg);
+  z-index: 0;
+  font-variation-settings: "SCAN" 50, "BLED" 0 ;
+  animation-name: hic3; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 5s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0.5s;/*faire démarer une animation un peu en retard*/
+
+}
+
+
+@keyframes hic3 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+font-size: 5px;
+transform: rotate(-15deg);
+font-variation-settings: "SCAN" 50, "BLED" 0 ;
+}
+
+100%{ /*ici on renseigne la valeur de départ*/
+  font-size: 60px;
+  left: 475px;
+  top:4500px;
+  transform: rotate(-40deg);
+  font-variation-settings: "SCAN" -15, "BLED" 0 ;
+  }
+}
+
+#hic4
+{
+  position: absolute;
+  left: 1300px;
+  top: 4350px;
+  color: rgb(99, 125, 220);
+  font-size: 50px;
+  transform: rotate(-25deg);
+  z-index: 0;
+  font-variation-settings: "SCAN" 50, "BLED" 0 ;
+  animation-name: hic4; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 5s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0.5s;/*faire démarer une animation un peu en retard*/
+
+}
+
+
+@keyframes hic4 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+font-size: 5px;
+transform: rotate(-15deg);
+font-variation-settings: "SCAN" 50, "BLED" 0 ;
+}
+
+100%{ /*ici on renseigne la valeur de départ*/
+  font-size: 60px;
+  left: 475px;
+  top:5000px;
+  transform: rotate(-60deg);
+  font-variation-settings: "SCAN" -15, "BLED" 0 ;
+  }
+}
+
+
+#BAM {
+  position: absolute;
+  left: 600px;
+  top: 7000px;
+  color: rgb(99, 125, 220);
+  font-size: 400px;
+  transform: rotate(-15deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: BAM; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+
+}
+
+@keyframes BAM { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+font-size: 100px;
+left: 600px;
+font-variation-settings: "SCAN" 10, "BLED" 0;
+}
+
+10%{ /*ici on renseigne la valeur de départ*/
+  font-size: 100px;
+  left: 300px;
+  font-variation-settings: "SCAN" 10, "BLED" 0;
+  }
+
+20%{ /*ici on renseigne la valeur de départ*/
+font-size: 100px;
+left: 600px;
+font-variation-settings: "SCAN" 10, "BLED" 0;
+}
+
+30%{ /*ici on renseigne la valeur de départ*/
+font-size: 100px;
+left: 300px;
+font-variation-settings: "SCAN" 10, "BLED" 0;
+}
+
+40%{ /*ici on renseigne la valeur de départ*/
+  font-size: 100px;
+  left: 600px;
+  font-variation-settings: "SCAN" 10, "BLED" 0;
+  }
+
+50%{ /*ici on renseigne la valeur de départ*/
+  font-size: 100px;
+  left: 300px;
+  font-variation-settings: "SCAN" 10, "BLED" 0;
+  }
+
+60%{ /*ici on renseigne la valeur de départ*/
+font-size: 100px;
+left: 600px;
+font-variation-settings: "SCAN" 10, "BLED" 0;
+}
+
+70%{ /*ici on renseigne la valeur de départ*/
+font-size: 100px;
+left: 300px;
+font-variation-settings: "SCAN" 10, "BLED" 0;
+}
+
+80%{ /*ici on renseigne la valeur de départ*/
+  color: rgb(99, 125, 220);
+  font-size: 100px;
+  left: 400px;
+  font-variation-settings: "SCAN" 10, "BLED" 0;
+  }
+
+100%{/*ici on renseigne la valeur de fin*/
+  color: rgb(180, 36, 13);
+  font-size: 600px;
+  font-variation-settings: "SCAN" 100, "BLED" 0;
+}
+}
+
+#cric1 {
+  position: absolute;
+  left: 100px;
+  top: 7000px;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  transform: rotate(-5deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: cric1; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+
+}
+
+
+@keyframes cric1 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(-15deg);
+font-variation-settings: "SCAN" 50, "BLED" 0 ;
+}
+
+80%{ /*ici on renseigne la valeur de départ*/
+  transform: rotate(-17deg);
+  left: 100px;
+  color: rgb(0, 0, 0);
+  font-variation-settings: "SCAN" 50, "BLED" 0 ;
+  }
+
+100%{ /*ici on renseigne la valeur de départ*/
+  left: 0px;
+  transform: rotate(-40deg);
+  color: white;
+  font-variation-settings: "SCAN" -15, "BLED" 0 ;
+  }
+}
+
+#cric2 {
+  position: absolute;
+  left: 850px;
+  top: 7000px;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  transform: rotate(15deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: cric2; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+
+}
+
+
+@keyframes cric2 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(15deg);
+font-variation-settings: "SCAN" 50, "BLED" 0 ;
+}
+
+80%{ /*ici on renseigne la valeur de départ*/
+  transform: rotate(16deg);
+  left: 850px;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  font-variation-settings: "SCAN" 50, "BLED" 0 ;
+  }
+
+100%{ /*ici on renseigne la valeur de départ*/
+  left: 1000px;
+  font-size: 30px;
+  transform: rotate(40deg);
+  color:white;
+  font-variation-settings: "SCAN" -15, "BLED" 0 ;
+  }
+}
+
+#cric3 {
+  position: absolute;
+  left: 700px;
+  top: 6750px;
+  color: rgb(0, 0, 0);
+  font-size: 55px;
+  transform: rotate(15deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: cric3; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+
+}
+
+
+@keyframes cric3 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(-15deg);
+font-variation-settings: "SCAN" 50, "BLED" 0 ;
+}
+
+80%{ /*ici on renseigne la valeur de départ*/
+  left: 700px;
+  transform: rotate(-16deg);
+  font-size: 55px;
+  color: rgb(0, 0, 0);
+  font-variation-settings: "SCAN" 50, "BLED" 0 ;
+  }
+
+100%{ /*ici on renseigne la valeur de départ*/
+  left: 900px;
+  transform: rotate(40deg);
+  font-size: 20px;
+  color: white;
+  font-variation-settings: "SCAN" -15, "BLED" 0 ;
+  }
+}
+
+#cric4 {
+  position: absolute;
+  left: 100px;
+  top: 6750px;
+  color: rgb(0, 0, 0);
+  font-size: 75px;
+  transform: rotate(15deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: cric4; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+
+}
+
+
+@keyframes cric4 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(15deg);
+font-variation-settings: "SCAN" 50, "BLED" 0 ;
+}
+
+80%{ /*ici on renseigne la valeur de départ*/
+  left: 100px;
+  transform: rotate(16deg);
+  font-size: 75px;
+  color: rgb(0, 0, 0);
+  font-variation-settings: "SCAN" 50, "BLED" 0 ;
+  }
+
+100%{ /*ici on renseigne la valeur de départ*/
+  left: 0px;
+  transform: rotate(40deg);
+  font-size: 40px;
+  color: white;
+  font-variation-settings: "SCAN" -15, "BLED" 0 ;
+  }
+}
+
+#cric5 {
+  position: absolute;
+  left: 170px;
+  top: 7150px;
+  color: rgb(0, 0, 0);
+  font-size: 75px;
+  transform: rotate(-25deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: cric5; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+
+}
+
+
+@keyframes cric5 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(-25deg);
+font-variation-settings: "SCAN" 50, "BLED" 0 ;
+}
+
+80%{ /*ici on renseigne la valeur de départ*/
+  left: 170px;
+  transform: rotate(-26deg);
+  font-size: 75px;
+  color: rgb(0, 0, 0);
+  font-variation-settings: "SCAN" 50, "BLED" 0 ;
+  }
+
+100%{ /*ici on renseigne la valeur de départ*/
+  left: 0px;
+  transform: rotate(-50deg);
+  font-size: 40px;
+  color: white;
+  font-variation-settings: "SCAN" -15, "BLED" 0 ;
+  }
+}
+
+#cric6 {
+  position: absolute;
+  left: 700px;
+  top: 7150px;
+  color: rgb(0, 0, 0);
+  font-size: 75px;
+  transform: rotate(25deg);
+  z-index: -1;
+  font-variation-settings: "SCAN" 30, "BLED" 50 ;
+  animation-name: cric6; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+
+}
+
+
+@keyframes cric6 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+transform: rotate(25deg);
+font-variation-settings: "SCAN" 50, "BLED" 0 ;
+}
+
+80%{ /*ici on renseigne la valeur de départ*/
+  left: 700px;
+  transform: rotate(26deg);
+  font-size: 75px;
+  color: rgb(0, 0, 0);
+  font-variation-settings: "SCAN" 50, "BLED" 0 ;
+  }
+
+100%{ /*ici on renseigne la valeur de départ*/
+  left: 1000px;
+  transform: rotate(50deg);
+  font-size: 10px;
+  color: white;
+  font-variation-settings: "SCAN" -15, "BLED" 0 ;
+  }
+}
+
+#fin {
+  color:white;
+  position: absolute;
+  top: 8000px;
+
+}
